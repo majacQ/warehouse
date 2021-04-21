@@ -16,11 +16,73 @@ beautifulsoup4==4.9.3 \
 bok-choy==1.1.1 \
     --hash=sha256:67e8a868d645d68cfc0d1d14fe2bf522f1508655242333a1161d748af1d02650 \
     --hash=sha256:aa807f7cd704699743761921c453df42fbb2f5424709b796e76246c27fdd018a
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+    # via -r tests.in
+  =======
     # via -r requirements/tests.in
+  >>>>>>> master
 certifi==2020.12.5 \
     --hash=sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c \
     --hash=sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830
     # via requests
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+chardet==3.0.4 \
+    --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae \
+    --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
+    # via requests
+coverage==5.3 \
+    --hash=sha256:0203acd33d2298e19b57451ebb0bed0ab0c602e5cf5a818591b4918b1f97d516 \
+    --hash=sha256:0f313707cdecd5cd3e217fc68c78a960b616604b559e9ea60cc16795c4304259 \
+    --hash=sha256:1c6703094c81fa55b816f5ae542c6ffc625fec769f22b053adb42ad712d086c9 \
+    --hash=sha256:1d44bb3a652fed01f1f2c10d5477956116e9b391320c94d36c6bf13b088a1097 \
+    --hash=sha256:280baa8ec489c4f542f8940f9c4c2181f0306a8ee1a54eceba071a449fb870a0 \
+    --hash=sha256:29a6272fec10623fcbe158fdf9abc7a5fa032048ac1d8631f14b50fbfc10d17f \
+    --hash=sha256:2b31f46bf7b31e6aa690d4c7a3d51bb262438c6dcb0d528adde446531d0d3bb7 \
+    --hash=sha256:2d43af2be93ffbad25dd959899b5b809618a496926146ce98ee0b23683f8c51c \
+    --hash=sha256:381ead10b9b9af5f64646cd27107fb27b614ee7040bb1226f9c07ba96625cbb5 \
+    --hash=sha256:47a11bdbd8ada9b7ee628596f9d97fbd3851bd9999d398e9436bd67376dbece7 \
+    --hash=sha256:4d6a42744139a7fa5b46a264874a781e8694bb32f1d76d8137b68138686f1729 \
+    --hash=sha256:50691e744714856f03a86df3e2bff847c2acede4c191f9a1da38f088df342978 \
+    --hash=sha256:530cc8aaf11cc2ac7430f3614b04645662ef20c348dce4167c22d99bec3480e9 \
+    --hash=sha256:582ddfbe712025448206a5bc45855d16c2e491c2dd102ee9a2841418ac1c629f \
+    --hash=sha256:63808c30b41f3bbf65e29f7280bf793c79f54fb807057de7e5238ffc7cc4d7b9 \
+    --hash=sha256:71b69bd716698fa62cd97137d6f2fdf49f534decb23a2c6fc80813e8b7be6822 \
+    --hash=sha256:7858847f2d84bf6e64c7f66498e851c54de8ea06a6f96a32a1d192d846734418 \
+    --hash=sha256:78e93cc3571fd928a39c0b26767c986188a4118edc67bc0695bc7a284da22e82 \
+    --hash=sha256:7f43286f13d91a34fadf61ae252a51a130223c52bfefb50310d5b2deb062cf0f \
+    --hash=sha256:86e9f8cd4b0cdd57b4ae71a9c186717daa4c5a99f3238a8723f416256e0b064d \
+    --hash=sha256:8f264ba2701b8c9f815b272ad568d555ef98dfe1576802ab3149c3629a9f2221 \
+    --hash=sha256:9342dd70a1e151684727c9c91ea003b2fb33523bf19385d4554f7897ca0141d4 \
+    --hash=sha256:9361de40701666b034c59ad9e317bae95c973b9ff92513dd0eced11c6adf2e21 \
+    --hash=sha256:9669179786254a2e7e57f0ecf224e978471491d660aaca833f845b72a2df3709 \
+    --hash=sha256:aac1ba0a253e17889550ddb1b60a2063f7474155465577caa2a3b131224cfd54 \
+    --hash=sha256:aef72eae10b5e3116bac6957de1df4d75909fc76d1499a53fb6387434b6bcd8d \
+    --hash=sha256:bd3166bb3b111e76a4f8e2980fa1addf2920a4ca9b2b8ca36a3bc3dedc618270 \
+    --hash=sha256:c1b78fb9700fc961f53386ad2fd86d87091e06ede5d118b8a50dea285a071c24 \
+    --hash=sha256:c3888a051226e676e383de03bf49eb633cd39fc829516e5334e69b8d81aae751 \
+    --hash=sha256:c5f17ad25d2c1286436761b462e22b5020d83316f8e8fcb5deb2b3151f8f1d3a \
+    --hash=sha256:c851b35fc078389bc16b915a0a7c1d5923e12e2c5aeec58c52f4aa8085ac8237 \
+    --hash=sha256:cb7df71de0af56000115eafd000b867d1261f786b5eebd88a0ca6360cccfaca7 \
+    --hash=sha256:cedb2f9e1f990918ea061f28a0f0077a07702e3819602d3507e2ff98c8d20636 \
+    --hash=sha256:e8caf961e1b1a945db76f1b5fa9c91498d15f545ac0ababbe575cfab185d3bd8
+    # via -r tests.in
+factory-boy==3.1.0 \
+    --hash=sha256:d8626622550c8ba31392f9e19fdbcef9f139cf1ad643c5923f20490a7b3e2e3d \
+    --hash=sha256:ded73e49135c24bd4d3f45bf1eb168f8d290090f5cf4566b8df3698317dc9c08
+    # via -r tests.in
+faker==4.17.1 \
+    --hash=sha256:5398268e1d751ffdb3ed36b8a790ed98659200599b368eec38a02eed15bce997 \
+    --hash=sha256:d4183b8f57316de3be27cd6c3b40e9f9343d27c95c96179f027316c58c2c239e
+    # via factory-boy
+fakeredis==1.4.4 \
+    --hash=sha256:8070b7fce16f828beaef2c757a4354af91698685d5232404f1aeeb233529c7a5 \
+    --hash=sha256:f8c8ea764d7b6fd801e7f5486e3edd32ca991d506186f1923a01fc072e33c271
+    # via -r tests.in
+freezegun==1.0.0 \
+    --hash=sha256:02b35de52f4699a78f6ac4518e4cd3390dddc43b0aeb978335a8f270a2d9668b \
+    --hash=sha256:1cf08e441f913ff5e59b19cc065a8faa9dd1ddc442eaf0375294f344581a0643
+    # via -r tests.in
+  =======
 chardet==4.0.0 \
     --hash=sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa \
     --hash=sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5
@@ -95,6 +157,7 @@ freezegun==1.1.0 \
     --hash=sha256:177f9dd59861d871e27a484c3332f35a6e3f5d14626f2bf91be37891f18927f3 \
     --hash=sha256:2ae695f7eb96c62529f03a038461afe3c692db3465e215355e1bb4b0ab408712
     # via -r requirements/tests.in
+  >>>>>>> master
 idna==2.10 \
     --hash=sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6 \
     --hash=sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0
@@ -110,9 +173,15 @@ mirakuru==2.3.0 \
     --hash=sha256:1f89b9e5f23cec4181aa0225622b1996786848d830f51a12aa9c863bbfc2acc6 \
     --hash=sha256:cb90f587ebd2ca5b8c9c61ce025be86ec123522a8b100b2a419bc7e8d28259f0
     # via pytest-postgresql
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+packaging==20.4 \
+    --hash=sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8 \
+    --hash=sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181
+  =======
 packaging==20.9 \
     --hash=sha256:5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5 \
     --hash=sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a
+  >>>>>>> master
     # via pytest
 pluggy==0.13.1 \
     --hash=sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0 \
@@ -125,6 +194,25 @@ port-for==0.4 \
 pretend==1.0.9 \
     --hash=sha256:c90eb810cde8ebb06dafcb8796f9a95228ce796531bc806e794c2f4649aa1b10 \
     --hash=sha256:e389b12b7073604be67845dbe32bf8297360ad9a609b24846fe15d86e0b7dc01
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+    # via -r tests.in
+psutil==5.7.3 \
+    --hash=sha256:01bc82813fbc3ea304914581954979e637bcc7084e59ac904d870d6eb8bb2bc7 \
+    --hash=sha256:1cd6a0c9fb35ece2ccf2d1dd733c1e165b342604c67454fd56a4c12e0a106787 \
+    --hash=sha256:2cb55ef9591b03ef0104bedf67cc4edb38a3edf015cf8cf24007b99cb8497542 \
+    --hash=sha256:56c85120fa173a5d2ad1d15a0c6e0ae62b388bfb956bb036ac231fbdaf9e4c22 \
+    --hash=sha256:5d9106ff5ec2712e2f659ebbd112967f44e7d33f40ba40530c485cc5904360b8 \
+    --hash=sha256:6a3e1fd2800ca45083d976b5478a2402dd62afdfb719b30ca46cd28bb25a2eb4 \
+    --hash=sha256:ade6af32eb80a536eff162d799e31b7ef92ddcda707c27bbd077238065018df4 \
+    --hash=sha256:af73f7bcebdc538eda9cc81d19db1db7bf26f103f91081d780bbacfcb620dee2 \
+    --hash=sha256:e02c31b2990dcd2431f4524b93491941df39f99619b0d312dfe1d4d530b08b4b \
+    --hash=sha256:fa38ac15dbf161ab1e941ff4ce39abd64b53fec5ddf60c23290daed2bc7d1157 \
+    --hash=sha256:fbcac492cb082fa38d88587d75feb90785d05d7e12d4565cbf1ecc727aff71b7
+    # via mirakuru
+py==1.9.0 \
+    --hash=sha256:366389d1db726cd2fcfc79732e75410e5fe4d31db13692115529d34069a043c2 \
+    --hash=sha256:9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342
+  =======
     # via -r requirements/tests.in
 psutil==5.8.0 \
     --hash=sha256:0066a82f7b1b37d334e68697faba68e5ad5e858279fd6351c8ca6024e8d6ba64 \
@@ -159,11 +247,22 @@ psutil==5.8.0 \
 py==1.10.0 \
     --hash=sha256:21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3 \
     --hash=sha256:3b80836aa6d1feeaa108e046da6423ab8f6ceda6468545ae8d02d9d58d18818a
+  >>>>>>> master
     # via pytest
 pyparsing==2.4.7 \
     --hash=sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1 \
     --hash=sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b
     # via packaging
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+pytest-postgresql==2.5.2 \
+    --hash=sha256:3677dfd5d9380dd81a3a34d5406a4934bba7c008b5c0b5aa45b7711f024dfb4d
+    # via -r tests.in
+pytest==6.1.2 \
+    --hash=sha256:4288fed0d9153d9646bfcdf0c0428197dba1ecb27a33bb6e031d002fa88653fe \
+    --hash=sha256:c0a7e94a8cdbc5422a51ccdad8e6f1024795939cc89159a0ae7f0b316ad3823e
+    # via
+    #   -r tests.in
+  =======
 pytest-postgresql==2.6.1 \
     --hash=sha256:5e24cc87d3a955a5ebe919ee5c1c15bd7300823a362269327b63526e6718cbdb
     # via -r requirements/tests.in
@@ -172,6 +271,7 @@ pytest==6.2.2 \
     --hash=sha256:b574b57423e818210672e07ca1fa90aaf194a4f63f3ab909a2c67ebb22913839
     # via
     #   -r requirements/tests.in
+  >>>>>>> master
     #   pytest-postgresql
 python-dateutil==2.8.1 \
     --hash=sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c \
@@ -183,14 +283,24 @@ redis==3.5.3 \
     --hash=sha256:0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2 \
     --hash=sha256:432b788c4530cfe16d8d943a09d40ca6c16149727e4afe8c2c9d5580c59d9f24
     # via fakeredis
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+requests==2.25.0 \
+    --hash=sha256:7f1a0b932f4a60a1a65caa4263921bb7d9ee911957e0ae4a23a6dd08185ad5f8 \
+    --hash=sha256:e786fa28d8c9154e6a4de5d46a1d921b8749f8b74e28bde23768e5e16eece998
+  =======
 requests==2.25.1 \
     --hash=sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804 \
     --hash=sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e
+  >>>>>>> master
     # via responses
 responses==0.12.1 \
     --hash=sha256:2e5764325c6b624e42b428688f2111fea166af46623cb0127c05f6afb14d3457 \
     --hash=sha256:ef265bd3200bdef5ec17912fc64a23570ba23597fd54ca75c18650fa1699213d
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+    # via -r tests.in
+  =======
     # via -r requirements/tests.in
+  >>>>>>> master
 selenium==3.141.0 \
     --hash=sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c \
     --hash=sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d
@@ -201,6 +311,10 @@ six==1.15.0 \
     # via
     #   bok-choy
     #   fakeredis
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+    #   packaging
+  =======
+  >>>>>>> master
     #   python-dateutil
     #   responses
     #   webtest
@@ -208,9 +322,15 @@ sortedcontainers==2.3.0 \
     --hash=sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f \
     --hash=sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1
     # via fakeredis
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+soupsieve==2.0.1 \
+    --hash=sha256:1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55 \
+    --hash=sha256:a59dc181727e95d25f781f0eb4fd1825ff45590ec8ff49eadfd7f1a537cc0232
+  =======
 soupsieve==2.2 \
     --hash=sha256:407fa1e8eb3458d1b5614df51d9651a1180ea5fedf07feb46e45d7e25e6d6cdd \
     --hash=sha256:d3a5ea5b350423f47d07639f74475afedad48cf41c0ad7a82ca13a3928af34f6
+  >>>>>>> master
     # via beautifulsoup4
 text-unidecode==1.3 \
     --hash=sha256:1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8 \
@@ -227,6 +347,15 @@ urllib3==1.26.4 \
     #   requests
     #   responses
     #   selenium
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+waitress==1.4.4 \
+    --hash=sha256:1bb436508a7487ac6cb097ae7a7fe5413aefca610550baf58f0940e51ecfb261 \
+    --hash=sha256:3d633e78149eb83b60a07dfabb35579c29aac2d24bb803c18b26fb2ab1a584db
+    # via webtest
+webob==1.8.6 \
+    --hash=sha256:a3c89a8e9ba0aeb17382836cdb73c516d0ecf6630ec40ec28288f3ed459ce87b \
+    --hash=sha256:aa3a917ed752ba3e0b242234b2a373f9c4e2a75d35291dcbe977649bd21fd108
+  =======
 waitress==2.0.0 \
     --hash=sha256:29af5a53e9fb4e158f525367678b50053808ca6c21ba585754c77d790008c746 \
     --hash=sha256:69e1f242c7f80273490d3403c3976f3ac3b26e289856936d1f620ed48f321897
@@ -234,8 +363,13 @@ waitress==2.0.0 \
 webob==1.8.7 \
     --hash=sha256:73aae30359291c14fa3b956f8b5ca31960e420c28c1bec002547fb04928cf89b \
     --hash=sha256:b64ef5141be559cfade448f044fa45c2260351edcb6a8ef6b7e00c7dcef0c323
+  >>>>>>> master
     # via webtest
 webtest==2.0.35 \
     --hash=sha256:44ddfe99b5eca4cf07675e7222c81dd624d22f9a26035d2b93dc8862dc1153c6 \
     --hash=sha256:aac168b5b2b4f200af4e35867cf316712210e3d5db81c1cbdff38722647bb087
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+    # via -r tests.in
+  =======
     # via -r requirements/tests.in
+  >>>>>>> master
