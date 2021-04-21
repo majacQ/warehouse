@@ -44,10 +44,14 @@
     "stimulus": "1.1.1",
     "uglify-js": "3.2.1",
     "vinyl-named": "1.1.0",
+  <<<<<<< dependabot/pip/requirements/bleach-3.3.0
+    "webpack": "^5.31.2",
+  =======
   <<<<<<< dependabot/pip/requirements/cryptography-3.3.2
     "webpack": "^5.31.2",
   =======
     "webpack": "^5.31.0",
+  >>>>>>> master
   >>>>>>> master
     "webpack-stream": "^5.0.0",
     "whatwg-fetch": "2.0.3",
