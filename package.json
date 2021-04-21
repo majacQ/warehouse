@@ -29,6 +29,7 @@
     "gulp": "^4.0.2",
     "gulp-brotli": "^3.0.0",
     "gulp-concat": "2.6.1",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-gzip": "1.4.2",
     "gulp-image": "^6.1.0",
     "gulp-postcss": "8.0.0",
@@ -36,7 +37,6 @@
     "gulp-rev-all": "0.9.8",
     "gulp-rev-napkin": "0.1.0",
     "gulp-rtlcss": "^1.4.1",
-    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "2.6.1",
     "gulp-uglify": "3.0.0",
     "imports-loader": "0.7.1",
@@ -44,7 +44,19 @@
     "stimulus": "1.1.1",
     "uglify-js": "3.2.1",
     "vinyl-named": "1.1.0",
+  <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
     "webpack": "^5.31.2",
+  =======
+  <<<<<<< dependabot/pip/requirements/bleach-3.3.0
+    "webpack": "^5.31.2",
+  =======
+  <<<<<<< dependabot/pip/requirements/cryptography-3.3.2
+    "webpack": "^5.31.2",
+  =======
+    "webpack": "^5.31.0",
+  >>>>>>> master
+  >>>>>>> master
+  >>>>>>> master
     "webpack-stream": "^5.0.0",
     "whatwg-fetch": "2.0.3",
     "zopflipng-bin": "5.0.0"
