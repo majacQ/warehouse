@@ -1,4 +1,4 @@
-FROM node:14.16.1 as static
+FROM node:current-buster-slim as static
 
 WORKDIR /opt/warehouse/src/
 
