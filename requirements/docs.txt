@@ -20,12 +20,15 @@ certifi==2020.12.5 \
 chardet==3.0.4 \
     --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae \
     --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
   =======
   =======
 chardet==4.0.0 \
     --hash=sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa \
     --hash=sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5
+  >>>>>>> master
   >>>>>>> master
   >>>>>>> master
     # via requests
@@ -41,6 +44,11 @@ imagesize==1.2.0 \
     --hash=sha256:6965f19a6a2039c7d48bca7dba2473069ff854c36ae6f19d2cde309d998228a1 \
     --hash=sha256:b1f6b5a4eab1f73479a50fb79fcf729514a900c341d8503d62a62dbc4127a2b1
     # via sphinx
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+jinja2==2.11.3 \
+    --hash=sha256:03e47ad063331dd6a3f04a43eddca8a966a26ba0c5b7207a9a9e4e08f1b29419 \
+    --hash=sha256:a6d58433de0ae800347cab1fa3043cebbabe8baa9d29e668f1c768cb87a333c6
+  =======
   <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
 jinja2==2.11.2 \
     --hash=sha256:89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0 \
@@ -51,6 +59,7 @@ jinja2==2.11.2 \
 jinja2==2.11.3 \
     --hash=sha256:03e47ad063331dd6a3f04a43eddca8a966a26ba0c5b7207a9a9e4e08f1b29419 \
     --hash=sha256:a6d58433de0ae800347cab1fa3043cebbabe8baa9d29e668f1c768cb87a333c6
+  >>>>>>> master
   >>>>>>> master
   >>>>>>> master
     # via sphinx
@@ -102,6 +111,8 @@ pygments==2.7.4 \
 pygments==2.7.2 \
     --hash=sha256:381985fcc551eb9d37c52088a32914e00517e57f4a21609f48141ba08e193fa0 \
     --hash=sha256:88a0bbcd659fcb9573703957c6b9cff9fab7295e6e76db54c9d00ae42df32773
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   =======
 packaging==20.9 \
     --hash=sha256:5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5 \
@@ -110,6 +121,7 @@ packaging==20.9 \
 pygments==2.8.1 \
     --hash=sha256:2656e1a6edcdabf4275f9a3640db59fd5de107d88e8663c5d4e9a0fa62f77f94 \
     --hash=sha256:534ef71d539ae97d4c3a4cf7d6f110f214b0e687e92f9cb9d2a3b0d3101289c8
+  >>>>>>> master
   >>>>>>> master
   >>>>>>> master
     # via sphinx
@@ -125,6 +137,8 @@ pytz==2020.5 \
 requests==2.25.0 \
     --hash=sha256:7f1a0b932f4a60a1a65caa4263921bb7d9ee911957e0ae4a23a6dd08185ad5f8 \
     --hash=sha256:e786fa28d8c9154e6a4de5d46a1d921b8749f8b74e28bde23768e5e16eece998
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
   =======
   =======
@@ -137,13 +151,17 @@ requests==2.25.1 \
     --hash=sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e
   >>>>>>> master
   >>>>>>> master
+  >>>>>>> master
     # via sphinx
 six==1.15.0 \
     --hash=sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259 \
     --hash=sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
   =======
   <<<<<<< dependabot/pip/requirements/urllib3-1.26.4
+  >>>>>>> master
   >>>>>>> master
     # via
     #   packaging
@@ -161,6 +179,8 @@ sphinx==3.3.1 \
     --hash=sha256:d4e59ad4ea55efbb3c05cde3bfc83bfc14f0c95aa95c3d75346fcce186a47960
     # via
     #   -r docs.in
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
   =======
   =======
@@ -180,6 +200,7 @@ sphinx==3.5.2 \
     #   -r requirements/docs.in
   >>>>>>> master
   >>>>>>> master
+  >>>>>>> master
     #   sphinx-rtd-theme
     #   sphinxcontrib-httpdomain
 sphinxcontrib-applehelp==1.0.2 \
@@ -197,6 +218,9 @@ sphinxcontrib-htmlhelp==1.0.3 \
 sphinxcontrib-httpdomain==1.7.0 \
     --hash=sha256:1fb5375007d70bf180cdd1c79e741082be7aa2d37ba99efe561e1c2e3f38191e \
     --hash=sha256:ac40b4fba58c76b073b03931c7b8ead611066a6aebccafb34dc19694f4eb6335
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+    # via -r docs.in
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
     # via -r docs.in
   =======
@@ -204,6 +228,7 @@ sphinxcontrib-httpdomain==1.7.0 \
     # via -r docs.in
   =======
     # via -r requirements/docs.in
+  >>>>>>> master
   >>>>>>> master
   >>>>>>> master
 sphinxcontrib-jsmath==1.0.1 \
@@ -222,10 +247,13 @@ sphinxcontrib-serializinghtml==1.1.4 \
 urllib3==1.26.2 \
     --hash=sha256:19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08 \
     --hash=sha256:d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   =======
 urllib3==1.26.4 \
     --hash=sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df \
     --hash=sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937
+  >>>>>>> master
   >>>>>>> master
     # via requests
 
@@ -234,12 +262,15 @@ urllib3==1.26.4 \
 setuptools==50.3.2 \
     --hash=sha256:2c242a0856fbad7efbe560df4a7add9324f340cf48df43651e9604924466794a \
     --hash=sha256:ed0519d27a243843b05d82a5e9d01b0b083d9934eaa3d02779a23da18077bd3c
+  <<<<<<< dependabot/pip/requirements/jinja2-2.11.3
+  =======
   <<<<<<< dependabot/pip/requirements/pygments-2.7.4
   =======
   =======
 setuptools==54.1.2 \
     --hash=sha256:dd20743f36b93cbb8724f4d2ccd970dce8b6e6e823a13aa7e5751bb4e674c20b \
     --hash=sha256:ebd0148faf627b569c8d2a1b20f5d3b09c873f12739d71c7ee88f037d5be82ff
+  >>>>>>> master
   >>>>>>> master
   >>>>>>> master
     # via sphinx
